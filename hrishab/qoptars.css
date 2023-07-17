@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section {
+    display: flex;
+    height: 100vh;
+    background-color: black;
+  }
+
+  .box-1{
+    height: 100vh;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .box-2{
+    height: 100vh;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+
+  /* section 1 */
+/* ---------------------------------------------------------------- */
+  .box-2 .image{
+    margin-left: -30px;
+    max-width: 70%;
+    max-height: 50vh;
+    border-radius: 12%;
+  }
+
+  .box-2 .image:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  .box-1 .content{
+    margin-right: -50px;
+    margin-top: -30px;
+    color: white;
+  }
+
+  .box-1 .content .heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.2vw;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .box-1 .content .paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+  }
+  
+  .box-1 .content .button{
+    padding: 5px;
+    margin-left: 20px;
+    width: 180px;
+    height: 50px;
+    border: solid 2px white;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+  }
+
+  .box-1 .content .button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+  }
+
+  /* section 2
+  -------------------------------------------------------- */
+   .box-1 .image{
+    margin-left: 40px; 
+    max-width: 70%;
+    max-height: 100%;
+    border-radius: 8%;
+  }
+  
+  .box-1 .image:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  .box-2 .content{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    color: white;
+  }
+
+
+  .box-2 .content .heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    margin-left: 20px;
+  }
+  
+  .box-2 .content .paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+  }
+  
+  .box-2 .content .button{
+    padding: 5px;
+    margin-left: 20px;
+    width: 180px;
+    height: 50px;
+    border: solid 2px white;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+  }
+
+  .box-2 .content .button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+  }
