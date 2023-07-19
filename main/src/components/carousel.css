@@ -1,0 +1,11 @@
+.Heading_Gall{
+    font-size:9rem;
+    color:whitesmoke;
+    padding-bottom: 5%;
+    padding-top:2%;
+    text-decoration: underline;
+}
+.App{
+    background-color:black;
+    height:100vh;
+   }

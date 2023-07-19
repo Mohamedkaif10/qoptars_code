@@ -15,15 +15,15 @@ return (
 		<Row>
 		<Column>
 			<Heading>Products</Heading>
-			<FooterLink href="#">Quadcopters</FooterLink>
-			<FooterLink href="#">FPV Drones</FooterLink>
-			<FooterLink href="#">Accessories</FooterLink>
+			<FooterLink href="http:www.google.com" alt="googlw website">Quadcopters</FooterLink>
+			<FooterLink href="http:www.google.com" alt="googlw website">FPV Drones</FooterLink>
+			<FooterLink href="http:www.google.com" alt="googlw website">Accessories</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Support</Heading>
-			<FooterLink href="#">FAQ</FooterLink>
-			<FooterLink href="#">Tutorials</FooterLink>
-			<FooterLink href="#">Contact</FooterLink>
+			<FooterLink href="http:www.google.com" alt="googlw website">FAQ</FooterLink>
+			<FooterLink href="http:www.google.com" alt="googlw website">Tutorials</FooterLink>
+			<FooterLink href="http:www.google.com" alt="googlw website">Contact</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Company</Heading>
