@@ -18,6 +18,9 @@ export const Container = styled.div`
 	justify-content: center;
 	max-width: 1000px;
 	margin: 0 auto;
+   padding-left:13%;
+// 	border-color:white;
+// border-style:dotted;
 	// background: red;
 `
 
@@ -26,6 +29,8 @@ display: flex;
 flex-direction: column;
 text-align: left;
 margin-left: 60px;
+// border-color:white;
+// border-style:dotted;
 `;
 
 export const Row = styled.div`
