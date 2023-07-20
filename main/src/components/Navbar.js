@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import Logo from "../images/logoW.png";
+import Video from "../images/cover.mp4";
 import {
   FaFacebookSquare,
   FaInstagramSquare,
@@ -34,7 +35,13 @@ const Navbar = () => {
               <a href="#">Gallery</a>
             </li>
             <li>
-              <a href="#">Sign Up</a>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+            <li>
+              <a className="btn" href="#"><button>Sign Up</button></a>
             </li>
           </ul>
         </div>
@@ -69,13 +76,17 @@ const Navbar = () => {
       </nav>
 
       {/*hero section*/}
+      <div className="Cover">
+        <video src={Video} autoPlay loop muted></video>
       <section className="hero-section">
         <div className="hero-section-content">
-          <p>Welcome<br /> to</p>
+          <p>Welcome<br />to</p>
           {/*<h1>Qoptars</h1>*/}
           <img src={Logo} alt="logo" />
+          <p>Explore.Create.Inspire</p>
         </div>
       </section>
+      </div>
     </>
   );
 };
