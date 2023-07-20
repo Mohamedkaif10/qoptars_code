@@ -7,7 +7,7 @@ function Section() {
       <section className="section">
         <div className="box-1">
           <div className="content">
-            <div className="heading">Dive into Stunning Aerial <br /> Views with our OneDrone</div>
+            <div className="heading"><br /> <br />Dive into Stunning Aerial <br /> Views with our OneDrone</div>
             <br />
             <br />
             <p className="paragraph">

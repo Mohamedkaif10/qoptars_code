@@ -1,14 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Jost", sans-serif;
 }
 
 html {
   font-size: 62.5%;
+  font-family: 'Poppins';
   /* background-color: black; */
   background-image: linear-gradient(to bottom, #434343 0%, black 100%);
 }
@@ -19,6 +17,8 @@ a {
 
 li {
   list-style: none;
+  display: block;
+  padding: 0px 20px;
 }
 
 /* 
@@ -28,68 +28,61 @@ li {
 
 .main-nav {
   width: 100%;
-  height: 10rem;
-  display: grid;
-  background-color: black;
-  grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #262626;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .logo {
-  display: grid;
   /* background-color: #3b5998; */
-  grid-column: 2/3;
+  margin-top: 1rem;
   justify-content: start;
   align-items: center;
+  margin-left: 1.5rem;
+}
+
+.logo img {
+  height: 4rem;
+  width: fit-content;
 }
 
 .menu-link {
-  grid-column: 3/4;
-  
+  justify-content: center;
+
 }
 
 .menu-link ul {
-  height: 10rem;
+  margin-top: 2rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .social-media {
-  grid-column: 4/5;
+  justify-content: end;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
 }
 
 .social-media ul {
-  height: 10rem;
-  display: grid;
-  grid-template-columns: 3fr repeat(3, 1fr);
+  display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .social-media ul li {
   text-align: right;
+  justify-self: space-between;
 }
 
-.social-media ul li:first-child {
-  grid-column: 2/3;
-}
+
 
 /* ----------- Grid part ends ----------------- */
 
-.logo h2 {
-  font-size: 2.5rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.logo h2 span {
-  font-size: 3.5rem;
-}
 
 .menu-link ul li {
   font-size: 1.8rem;
@@ -97,13 +90,13 @@ li {
 
 .menu-link ul li a {
   text-transform: capitalize;
-  color:white;
+  color: white;
   transition: 0.5s;
 }
-.menu-link ul li:hover > a {
+
+.menu-link ul li:hover>a {
   transform-origin: left;
   color: #63CBE8;
-  text-decoration: underline;
   transition: 0.5s;
 }
 
@@ -117,20 +110,27 @@ li {
 
 .facebook {
   color: #3b5998;
+  height: 3rem;
+  width: 3rem;
 }
 
 .instagram {
   color: #c32aa3;
+  height: 3rem;
+  width: 3rem;
 }
 
 .youtube {
   color: #ff0000;
+  height: 3rem;
+  width: 3rem;
 }
 
 /* hero section   */
 
 .hero-section {
-  height: 80vh;
+  font-weight: 400;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,16 +138,24 @@ li {
 }
 
 .hero-section p {
-  font-size: 3rem;
-  text-transform: capitalize;
-  color: white;
+  font-size: 4.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-family: 'Roboto';
 }
 
 .hero-section h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   text-transform: uppercase;
   text-align: center;
-  color:#63CBE8;
+  color: #63CBE8;
+}
+
+.hero-section img {
+  height: 6rem;
+  align-content: center;
 }
 
 /* responsive css style  */
@@ -179,6 +187,11 @@ li {
   .logo,
   .social-media ul {
     height: 7rem;
+  }
+
+  .logo img {
+    height: 5rem;
+    width: fit-content;
   }
 
   .mobile-menu-link {
@@ -293,6 +306,6 @@ li {
   /* hero section  */
 
   .hero-section h1 {
-    font-size: 3.8rem;
+    font-size: 4rem;
   }
 }
