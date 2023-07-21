@@ -3,7 +3,7 @@ const SponsersGrid=()=>{
 return(
     <>
     <div className="CP">
-      <p className="Heading">CLIENTS & PARTNERS</p>
+      <h2 className="Heading">CLIENTS & PARTNERS</h2>
       <div className="grid">
     
       <div className="card">

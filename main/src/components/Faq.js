@@ -36,7 +36,6 @@ const Faq = () => {
     <div className="Heading">
       <br />
       <h2 className="Header">Frequently Asked Questions</h2>
-      <br />
       <div className="line">
         <div className="line1">
           <img src={Image} alt="line" />

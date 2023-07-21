@@ -7,7 +7,7 @@
     background-color: black;
     align-items:center;
     padding-left:5%;
-    padding-top: 6%;
+    padding-top: 2%;
     height:50rem;
     /* border-style: dotted;
     border-color: white; */
@@ -41,11 +41,10 @@
     text-align: center;
     /* border-color: whitesmoke;
     border-style: dotted; */
-    margin-top: 15%;
+    margin-top: 5%;
   }
 .Heading{
     font-family: 'Poppins';
-    font-size: 4.2vw;
-    font-weight: 700;
+    font-size: 6rem;
     color:whitesmoke;
 }
