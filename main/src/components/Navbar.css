@@ -315,6 +315,31 @@ li {
     display: block;
     font-size: 2.5rem;
   }
+  .hero-section-content{
+    top: 20%;
+  }
+  .hero-section p {
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1a1a1a;
+    font-family: 'Roboto';
+  }
+  
+  .hero-section h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #63CBE8;
+  }
+  
+  .hero-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4rem;
+  }
 }
 
 @media (max-width: 520px) {
