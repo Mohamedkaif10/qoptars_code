@@ -38,7 +38,10 @@ const SwiperCoverflow = () => {
   return (
     <Fragment>
       <div className="App">
-       
+        <div className='Heading'>
+          <h2>Gallery</h2>
+          <br />
+        </div>
         <Swiper
           navigation
           pagination={{ clickable: true }}

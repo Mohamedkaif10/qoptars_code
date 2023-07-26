@@ -1,5 +1,12 @@
 .App{
     background-color:black;
     height:100vh;
-    padding-top: 15%;;
+    padding-top: 5%;;
    }
+.Heading{
+    font-size: 6rem;
+    font-style: 'Poppins';
+    margin: 0;
+    text-align: center;
+    color: whitesmoke;
+}

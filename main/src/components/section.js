@@ -4,7 +4,7 @@ import "./section.css";
 function Section() {
   return (
     <div>
-      <section className="section">
+      <section className="section1">
         <div className="box-1">
           <div className="content">
             <div className="heading">
@@ -23,7 +23,7 @@ function Section() {
             <br />
             <br />
             <br />
-            <a href="">
+            <a href="#.">
               <button className="button">Learn More</button>
             </a>
           </div>

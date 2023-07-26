@@ -83,7 +83,7 @@ ans.show {
 }
 
 .line1 img {
-    minheight: 256px;
+    min-height: 256px;
     max-width: 100%;
     /* Adjust the max-width as needed */
     max-height: 100%;
