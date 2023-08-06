@@ -6,16 +6,19 @@ import Navbar from './components/Navbar'
 import SponsersGrid from './components/Sponsers';
 import Section from './components/section';
 import Faq from "./components/Faq"
+import 'typeface-raleway';
+import  HorizontalsScroll from "./components/parallex_1"
 function App() {
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/>  */}
    <SwiperCoverflow/>
-   <Section/>
+   {/* <Section/>
    <Faq/>
    <SponsersGrid/>
-   <Footer/>
-   
+  */}
+    <HorizontalsScroll/>
+    {/* <Footer/>  */}
    </>
   )
 }

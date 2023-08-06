@@ -1,7 +1,8 @@
 .App{
     background-color:black;
     height:100vh;
-    padding-top: 5%;;
+   
+   
    }
 .Heading{
     font-size: 6rem;
@@ -9,4 +10,53 @@
     margin: 0;
     text-align: center;
     color: whitesmoke;
+}
+.Vayu{
+    color: white;
+    text-align: center;
+    margin-top: 12%;
+    font-size: 22rem;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+  
+}
+.Vayu_desc{
+    color: white;
+    font-size: 4rem;
+    width:60%;
+    margin-left:22%;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.Air{
+    color: white;
+    text-align: center;
+    margin-top: 12%;
+    font-size: 20rem;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.Air_desc{
+    color: white;
+    font-size: 6.5rem;
+    width:80%;
+    margin-left:12%;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.AirCine{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 20rem;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.AirCine_desc{
+    color: white;
+    font-size: 5rem;
+    width:80%;
+    margin-left:12%;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
 }
