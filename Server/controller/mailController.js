@@ -1,13 +1,15 @@
 const nodemailer = require('nodemailer');
 const Mailgen = require('mailgen');
+require('dotenv').config();
 const mail= (req, res) => {
-
+    const SenderMail=process.env.EMAIL
+    const MailPassword=process.env.PASSWORD
     const { name, email,phone, desc} = req.body;
     let config = {
         service : 'gmail',
         auth : {
-            user: "mohamedkaif100604@gmail.com",
-            pass: "nopxagesvgycgkeu"
+            user:SenderMail,
+            pass: MailPassword
         }
     }
 
